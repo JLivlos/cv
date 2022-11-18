@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/faviconcv.ico">
+</head>
+
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="lang">EN</div>
+            <ul class="lang-menu">
+                <li class="en">EN</li>
+                <li class="be">BE</li>
+                <li class="ru">RU</li>
+            </ul>
+            <div class="header-wrapper">
+                <h1><a class="cv-name" href="#">Yuliya Shafranskaya</a></h1>
+                <nav class="menu">
+                    <ul>
+                        <li><a class="menu-contacts" href="#">Contacts</a></li>
+                        <li><a class="menu-summary" href="#summary">About me</a></li>
+                        <li><a class="menu-education" href="#education">Education</a></li>
+                        <li><a class="menu-skills" href="#skills">Skills</a></li>
+                        <li><a class="menu-code" href="#code">Code</a></li>
+                        <li><a class="menu-projects" href="#projects">Projects</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main-container">
+            <section class="contacts">
+                <div class="myphoto"></div>
+                <div class="contact-list">
+                    <h2 id="contacts-title" class="section-title contacts-title">Contacts</h2>
+                    <ul>
+                        <li><img src="./assets/img/location.png" alt="location"><a class="contacts-location" href="https://goo.gl/maps/GaXVi7u3U4fDSN5F7" title="location">Location: Vitebsk, Belarus</a></li>
+                        <li id="summary"><img src="./assets/img/github.png" alt="github"><a href="https://github.com/JLivlos" title="github">Github: JLivlos</a></li>
+                        <li><img src="./assets/img/discord.png" alt="discord"><a href="https://discordapp.com/users/981550822624198727/" title="discord">Discord: JLivlos</a></li>
+                        <li><img src="./assets/img/email.png" alt="email"><a href="mailto:mistlivlos@gmail.com" title="email">Email: mistlivlos@gmail.com</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="summary">
+                <h2 class="section-title summary-title">About me</h2>
+                <div class="summury_text">
+                    <p><span class="date-of-birth">Date of birth:</span> 23.07.1990.<br>
+                    </p>
+                    <p><span class="work-exp">Work experience</span>
+                    </p>
+                    <ul class="experience">
+                        <li class="exp-school">Programmer (Vitebsk school №9): 09.2016-02.2019</li>
+                        <li id="education" class="exp-cont">Content-manager (<a href="https://podvodnik.pro/">podvodnik.pro</a>): 09.2017-07.2022</li>
+                        <li class="exp-manager">Manager (<a href="https://vorotavitebsk.by/">"Steel Technologies"</a>): 10.2020-cur.time</li>
+                    </ul>
+                </div>
+            </section>
+            <hr>
+
+            <section class="education">
+                <h2 class="section-title education-title">Education/English</h2>
+                <ol>
+                    <li class="university">Vitebsk State University: Russian language and literature. Foreign language (German)</li>
+                    <li class="puzzleng">Puzzle English cources (<span>Teacher’s method</span>)</li>
+                    <li class="stage0">The Rolling Scopes. JavaScript/Front-end. Stage 0 (<span>06.2022 - 08.2022</span>)</li>
+                    <li id="skills" class="stage1">The Rolling Scopes. JavaScript/Front-end. Stage 1 (<span>09.2022 - 11.2022</span>)</li>
+                </ol>
+                <p id="skills" class="english">English A2 (<span>according <a href="https://pt.str.by/?gclid=Cj0KCQiA99ybBhD9ARIsALvZavXj3DZEuxZA8seN_zM_1MoPF4zIdchbaur5j67P30DduI6mhoKLAGgaAmZ9EALw_wcB">Streamline test</a></span>)</p>
+            </section>
+            <hr>
+
+            <section class="skills">
+                <h2 class="section-title skills-title">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li id="code">CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </section>
+            <hr>
+
+            <section class="code">
+                <h2 class="section-title code-title">Code</h2>
+                <code>               
+                    var whatTimeIsIt = function(angle) {<br>
+                        const hours = Math.trunc(angle / 0.5 / 60);<br>
+                        let resHours;<br>
+                        hours >= 10 ? resHours = hours : hours === 0 ? resHours  = 12: resHours = `0${hours}`;<br>
+                        const minutes = Math.floor(angle * 2 % 60);<br>
+                        let resMinutes;<br>
+                        minutes >= 10 ? resMinutes = minutes : resMinutes = `0${minutes}`;<br id="projects">
+                        return `${resHours}:${resMinutes}`;
+                      }
+                    </code>
+            </section>
+            <hr>
+
+            <section class="projects">
+                <h2 class="section-title projects-h2">Projects</h2>
+                <div class="projects-wrapper">
+                    <div class="projects-des-doc">
+                        <p class="projects-title des-cod-title">Design/Front-end</p>
+                        <div class="projects-list-wrapper">
+                            <div class="eldritch">
+                                <div class="projects-screen eldritch-img"></div>
+                                <a href="https://jlivlos.github.io/stage0/codejam-eldritch/" title="eldritch">Eldritch Horror Demo</a>
+                            </div>
+                            <div class="gempuzzle">
+                                <div class="projects-screen gempuzzle-img"></div>
+                                <a href="https://rolling-scopes-school.github.io/jlivlos-JSFE2022Q3/codejam-thegempuzzle/" title="gem puzzle">The Gem Puzzle Demo</a>
+                            </div>
+                            <div class="name-the-song">
+                                <div class="projects-screen name-the-song-img"></div>
+                                <a href="https://rolling-scopes-school.github.io/jlivlos-JSFE2022Q3/songbird/" title="name the song">Name The Song Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-coding">
+                        <p class="projects-title cod-title">Front-end</p>
+                        <div class="projects-list-wrapper">
+                            <div class="momentum">
+                                <div class="projects-screen mom-img"></div>
+                                <a href="https://jlivlos.github.io/stage0/momentum/" title="momentum">Momentum Demo</a>
+                            </div>
+                            <div class="zoo">
+                                <div class="projects-screen zoo-img"></div>
+                                <a href="https://rolling-scopes-school.github.io/jlivlos-JSFE2022Q3/online-zoo/pages/main/" title="petstory">Petstory Demo</a>
+                            </div>
+                            <div class="travel">
+                                <div class="projects-screen travel-img"></div>
+                                <a href="https://jlivlos.github.io/stage0/travel/" title="travel">Travel Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-design">
+                        <p class="projects-title des-title">Design</p>
+                        <div class="projects-list-wrapper">
+                            <div class="shveiba">
+                                <div class="projects-screen shveiba-img"></div>
+                                <a href="https://shveiba.by/" title="cemetery service">Cemetery Service Site</a>
+                            </div>
+                            <div class="taxi">
+                                <div class="projects-screen taxi-img"></div>
+                                <a href="https://shagurok.by/content/portfolio/retrotaxi/1.jpg" title="taxi">Taxi Service Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer-content" class="container">
+            <p>2022 &copy; <a href=https://github.com/JLivlos title="Github">JLivlos</a></p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

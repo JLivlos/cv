@@ -1,0 +1,513 @@
+@font-face {
+    font-family: acline;
+    src: url("assets/fonts/acline.otf");
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100%;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/*header*/
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color: #990000;
+}
+
+header:after {
+    background: linear-gradient(-45deg, transparent 16px, #990000 0), linear-gradient(45deg, transparent 16px, #990000 0);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-size: 22px 32px;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 18px;
+    position: relative;
+    left: 0px;
+}
+
+h1 {
+    float: left;
+    margin: 20px;
+}
+
+h1 a {
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: acline, Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/*menu*/
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0 20px;
+    padding: 0;
+}
+
+.menu a {
+    display: block;
+    padding: 0 10px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    color: #000000;
+}
+
+.lang {
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 14px;
+    border: solid 1px white;
+    cursor: pointer;
+    border-radius: 3px;
+    opacity: 0.9;
+}
+
+.lang:hover {
+    background-color: white;
+    color: #990000;
+}
+
+.lang-menu {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 3px;
+    z-index: 10;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+    border: solid 1px #990000;
+    cursor: pointer;
+}
+
+.lang-menu.active {
+    display: block;
+}
+
+.lang-menu li:hover {
+    background-color: lightgray;
+}
+
+
+/*main*/
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.main {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding-top: 110px;
+}
+
+
+/*contacts*/
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.myphoto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url('assets/img/photo.jpg');
+    background-size: 150px 150px;
+}
+
+#contacts-title {
+    text-align: left;
+    padding-left: 22px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #990000;
+    text-shadow: 2px 1px 2px #A9A9A9;
+}
+
+.contact-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-list img {
+    height: 18px;
+    margin: 0 10px 0 20px;
+    width: 18px;
+}
+
+.contact-list a {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+.contact-list a:hover {
+    color: #990000;
+}
+
+
+/*summary*/
+
+.summary {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+}
+
+.summary span {
+    font-weight: bold;
+}
+
+.summary a {
+    color: #5e5b5b;
+    text-decoration: none;
+}
+
+.summary a:hover {
+    color: #990000;
+}
+
+
+/*education*/
+
+.education {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+}
+
+.education ol li span {
+    font-style: italic;
+}
+
+.education p span {
+    font-style: italic;
+}
+
+.education a {
+    color: #5e5b5b;
+    text-decoration: none;
+}
+
+.education a:hover {
+    color: #990000;
+}
+
+
+/*skills*/
+
+.skills {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+}
+
+.skills ul li span {
+    font-style: italic;
+}
+
+
+/*code*/
+
+.code {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+}
+
+
+/* projects */
+
+.projects-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.projects-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.projects-list-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.projects-screen {
+    width: 300px;
+    height: 146px;
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px #A9A9A9;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.projects-screen:hover {
+    box-shadow: 2px 1px 2px #272727;
+}
+
+.travel-img {
+    background-image: url("assets/img/travel.jpg");
+    background-size: 300px 146px;
+}
+
+.mom-img {
+    background-image: url("assets/img/momentum.jpg");
+    background-size: 300px 146px;
+}
+
+.eldritch-img {
+    background-image: url("assets/img/eldritch.jpg");
+    background-size: 300px 146px;
+}
+
+.gempuzzle-img {
+    background-image: url("assets/img/gempuzzle.jpg");
+    background-size: 300px 146px;
+}
+
+.name-the-song-img {
+    background-image: url("assets/img/namethesong.jpg");
+    background-size: 300px 146px;
+}
+
+.zoo-img {
+    background-image: url("assets/img/zoo.jpg");
+    background-size: 300px 146px;
+}
+
+.taxi-img {
+    background-image: url("assets/img/taxi.jpg");
+    background-size: 300px 146px;
+}
+
+.shveiba-img {
+    background-image: url("assets/img/shveiba.jpg");
+    background-size: 300px 146px;
+}
+
+.projects a {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+.projects a:hover {
+    color: #990000;
+}
+
+
+/*footer*/
+
+footer {
+    bottom: 0;
+    margin-top: 50px;
+    background-color: #990000;
+}
+
+footer:before {
+    background: linear-gradient(-135deg, transparent 16px, #990000 0), linear-gradient(135deg, transparent 16px, #990000 0);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-size: 22px 14px;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 14px;
+    position: relative;
+    top: -14px;
+    left: 0px;
+}
+
+#footer-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+#footer-content a {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#footer-content a:hover {
+    color: #000000;
+}
+
+#footer-content p {
+    margin: 0;
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+
+/**/
+
+hr {
+    width: 100%;
+    border: none;
+    background-color: #A9A9A9;
+    height: 5px;
+}
+
+@media screen and (max-width: 1145px) {
+    .menu a {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    h1 a {
+        font-size: 24px;
+    }
+    .menu a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    h1 a {
+        font-size: 24px;
+    }
+    .menu a {
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    h1 a {
+        font-size: 20px;
+    }
+    .menu a {
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+}
+
+@media screen and (max-width:790px) {
+    .header-wrapper {
+        flex-direction: column;
+    }
+    h1 {
+        margin: 0 0 0 20px;
+    }
+}
+
+@media screen and (max-width:535px) {
+    .header-wrapper {
+        flex-direction: row;
+        width: 100%;
+    }
+    h1 {
+        width: 100px;
+    }
+    .menu ul {
+        margin: 5px 30px 0 0;
+        width: 205px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    h1 a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .header-wrapper {
+        flex-direction: column;
+    }
+    h1 {
+        width: 100%;
+        line-height: 18px;
+    }
+    .menu ul {
+        width: 100%;
+        gap: 5px;
+        justify-content: flex-start
+    }
+}
