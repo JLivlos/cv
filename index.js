@@ -20,27 +20,27 @@ window.addEventListener('beforeunload', setLangStorage);
 /* PROJECTS */
 
 document.querySelector('.eldritch-img').addEventListener('click', (e) => {
-    window.open('https://jlivlos.github.io/stage0/codejam-eldritch/');
+    window.open('https://jlivlos.github.io/rss-tasks/eldritch-horror/');
 });
 
 document.querySelector('.gempuzzle-img').addEventListener('click', (e) => {
-    window.open('https://rolling-scopes-school.github.io/jlivlos-JSFE2022Q3/codejam-thegempuzzle/');
+    window.open('https://jlivlos.github.io/rss-tasks/thegempuzzle/');
 });
 
 document.querySelector('.name-the-song-img').addEventListener('click', (e) => {
-    window.open('https://rolling-scopes-school.github.io/jlivlos-JSFE2022Q3/songbird/');
+    window.open('https://jlivlos.github.io/rss-tasks/songbird/');
 });
 
 document.querySelector('.mom-img').addEventListener('click', (e) => {
-    window.open('https://jlivlos.github.io/stage0/momentum/');
+    window.open('https://jlivlos.github.io/rss-tasks/momentum/');
 });
 
 document.querySelector('.zoo-img').addEventListener('click', (e) => {
-    window.open('https://rolling-scopes-school.github.io/jlivlos-JSFE2022Q3/online-zoo/pages/main/');
+    window.open('https://jlivlos.github.io/rss-tasks/online-zoo/pages/main/');
 });
 
 document.querySelector('.travel-img').addEventListener('click', (e) => {
-    window.open('https://jlivlos.github.io/stage0/travel/');
+    window.open('https://jlivlos.github.io/rss-tasks/travel/');
 });
 
 document.querySelector('.shveiba-img').addEventListener('click', (e) => {
@@ -89,7 +89,7 @@ function translateToEn() {
     document.querySelector('.exp-school').textContent = 'Programmer (Vitebsk school №9): 09.2016-02.2019';
 
     document.querySelector('.exp-cont').innerHTML = 'Content-manager (<a href="https://podvodnik.pro/">podvodnik.pro</a>): 09.2017-07.2022';
-    document.querySelector('.exp-manager').innerHTML = 'Manager (<a href="https://ppst.by/">"Steel Technologies"</a>): 10.2020-cur.time';
+    document.querySelector('.exp-manager').innerHTML = 'Manager (<a href="https://ppst.by/">"Steel Technologies"</a>): 10.2020-now';
 
     document.querySelector('.education-title').textContent = 'Education/English';
     document.querySelector('.university').textContent = 'Vitebsk State University: Russian language and literature. Foreign language (German)';
