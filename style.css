@@ -356,6 +356,11 @@ h1 a {
 .taxi-img {
     background-image: url("assets/img/taxi.jpg");
     background-size: 300px 146px;
+    cursor: context-menu;
+}
+
+.taxi-img:hover {
+    box-shadow: 2px 1px 2px #A9A9A9;
 }
 
 .shveiba-img {
