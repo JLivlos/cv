@@ -87,9 +87,9 @@ function translateToEn() {
     document.querySelector('.work-exp').textContent = 'Work experience';
 
     document.querySelector('.exp-school').textContent = 'Programmer (Vitebsk school №9): 09.2016-02.2019';
-
     document.querySelector('.exp-cont').innerHTML = 'Content-manager (<a href="https://podvodnik.pro/">podvodnik.pro</a>): 09.2017-07.2022';
-    document.querySelector('.exp-manager').innerHTML = 'Manager (<a href="https://ppst.by/">"Steel Technologies"</a>): 10.2020-now';
+    document.querySelector('.exp-manager').innerHTML = 'Manager (<a href="https://ppst.by/">"Steel Technologies"</a>): 10.2020-12.2022';
+    document.querySelector('.exp-cont2').innerHTML = 'Content-manager (<a href="http://boat.maldiviana.com/">"Maldiviana Boat"</a>): 01.2023-now';
 
     document.querySelector('.education-title').textContent = 'Education/English';
     document.querySelector('.university').textContent = 'Vitebsk State University: Russian language and literature. Foreign language (German)';
@@ -123,9 +123,9 @@ function translateToBe() {
     document.querySelector('.work-exp').textContent = 'Працоўны вопыт';
 
     document.querySelector('.exp-school').textContent = 'Інжэнер-праграміст (ДУА "СШ№9"): 09.2016-02.2019';
-
     document.querySelector('.exp-cont').innerHTML = 'Кантэнт-мэнэджэр (<a href="https://podvodnik.pro/">podvodnik.pro</a>): 09.2017-07.2022';
-    document.querySelector('.exp-manager').innerHTML = 'Мэнэджэр (<a href="https://ppst.by/">ТАА ПП "Стальныя тэхналогіі"</a>): 10.2020-цяпер.час';
+    document.querySelector('.exp-manager').innerHTML = 'Мэнэджэр (<a href="https://ppst.by/">ТАА ПП "Стальныя тэхналогіі"</a>): 10.2020-12.2022';
+    document.querySelector('.exp-cont2').innerHTML = 'Кантэнт-мэнэджэр (<a href="http://boat.maldiviana.com/">"Maldiviana Boat"</a>): 01.2023-зараз';
 
     document.querySelector('.education-title').textContent = 'Адукацыя';
     document.querySelector('.university').textContent = 'ВДУ ім. П.М. Машэрава: Філолаг. Выкладчык рускай мовы і літ-ры (спецыялізацыя: ням. мова)';
@@ -159,10 +159,10 @@ function translateToRu() {
     document.querySelector('.work-exp').textContent = 'Опыт работы';
 
     document.querySelector('.exp-school').textContent = 'Инженер-программист (ГУО "СШ№9"): 09.2016-02.2019';
-
     document.querySelector('.exp-cont').innerHTML = 'Контент-менеджер (<a href="https://podvodnik.pro/">podvodnik.pro</a>): 09.2017-07.2022';
-    document.querySelector('.exp-manager').innerHTML = 'Менеджер (<a href="https://ppst.by/">ООО ПП "Стальные технологии"</a>): 10.2020-наст.вр.';
-
+    document.querySelector('.exp-manager').innerHTML = 'Менеджер (<a href="https://ppst.by/">ООО ПП "Стальные технологии"</a>): 10.2020-12.2022';
+    document.querySelector('.exp-cont2').innerHTML = 'Контент-менеджер (<a href="http://boat.maldiviana.com/">"Maldiviana Boat"</a>): 01.2023-наст.вр.';
+    
     document.querySelector('.education-title').textContent = 'Образование';
     document.querySelector('.university').textContent = 'ВГУ им П.М. Машерова. Филолог. Преподаватель русск. языка и лит-ры (специализация: нем. яз.)';
     document.querySelector('.puzzleng').innerHTML = 'Курсы Puzzle English (<span>Teacher’s method</span>)';
