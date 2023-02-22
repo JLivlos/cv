@@ -39,6 +39,10 @@ document.querySelector('.zoo-img').addEventListener('click', (e) => {
     window.open('https://jlivlos.github.io/rss-tasks/online-zoo/pages/main/');
 });
 
+document.querySelector('.plants-img').addEventListener('click', (e) => {
+    window.open('https://jlivlos.github.io/rss-tasks/plants/');
+});
+
 document.querySelector('.travel-img').addEventListener('click', (e) => {
     window.open('https://jlivlos.github.io/rss-tasks/travel/');
 });
