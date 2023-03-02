@@ -31,6 +31,10 @@ document.querySelector('.name-the-song-img').addEventListener('click', (e) => {
     window.open('https://jlivlos.github.io/rss-tasks/songbird/');
 });
 
+document.querySelector('.vodolaz-img').addEventListener('click', (e) => {
+    window.open('https://vodolaz-expert.ru/');
+});
+
 document.querySelector('.mom-img').addEventListener('click', (e) => {
     window.open('https://jlivlos.github.io/rss-tasks/momentum/');
 });
@@ -45,10 +49,6 @@ document.querySelector('.plants-img').addEventListener('click', (e) => {
 
 document.querySelector('.travel-img').addEventListener('click', (e) => {
     window.open('https://jlivlos.github.io/rss-tasks/travel/');
-});
-
-document.querySelector('.shveiba-img').addEventListener('click', (e) => {
-    window.open('https://shveiba.by');
 });
 
 /* TRANSLATE */
@@ -104,8 +104,7 @@ function translateToEn() {
     document.querySelector('.code-title').textContent = 'Code';
     document.querySelector('.projects-h2').textContent = 'Projects';
     document.querySelector('.des-cod-title').textContent = 'Design/Front-end';
-    document.querySelector('.cod-title').textContent = 'Front-end';
-    document.querySelector('.des-title').textContent = 'Design';
+    document.querySelector('.cod-title').textContent = 'Front-end';    
 };
 
 function translateToBe() {
@@ -140,8 +139,7 @@ function translateToBe() {
     document.querySelector('.code-title').textContent = 'Прыклад кода';
     document.querySelector('.projects-h2').textContent = 'Праекты';
     document.querySelector('.des-cod-title').textContent = 'Дызайн/Вёрстка/Код';
-    document.querySelector('.cod-title').textContent = 'Вёрстка/Код';
-    document.querySelector('.des-title').textContent = 'Дызайн';
+    document.querySelector('.cod-title').textContent = 'Вёрстка/Код';    
 };
 
 function translateToRu() {
@@ -176,6 +174,5 @@ function translateToRu() {
     document.querySelector('.code-title').textContent = 'Пример кода';
     document.querySelector('.projects-h2').textContent = 'Проекты';
     document.querySelector('.des-cod-title').textContent = 'Дизайн/Верстка/Код';
-    document.querySelector('.cod-title').textContent = 'Верстка/Код';
-    document.querySelector('.des-title').textContent = 'Дизайн';
+    document.querySelector('.cod-title').textContent = 'Верстка/Код';    
 };
