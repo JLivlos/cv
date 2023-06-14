@@ -35,6 +35,10 @@ document.querySelector('.vodolaz-img').addEventListener('click', (e) => {
     window.open('https://vodolaz-expert.ru/');
 });
 
+document.querySelector('.metal-img').addEventListener('click', (e) => {
+    window.open('https://metal.ppst.by/');
+});
+
 document.querySelector('.mom-img').addEventListener('click', (e) => {
     window.open('https://jlivlos.github.io/rss-tasks/momentum/');
 });
